@@ -109,7 +109,7 @@ Brain_Tumor/
 │   ├── classification_report.txt   # Precision, recall, F1-score report
 │   └── sample_predictions.png      # Sample test predictions with labels
 │
-├── Brain_Tumor_Colab.py            # Single-file script for training on Google Colab
+|
 ├── Approach and Outputs.pdf        # Project approach documentation
 ├── requirements.txt                # Python dependencies
 ├── .gitignore                      # Git ignore rules
