@@ -11,8 +11,6 @@ env/
 
 # Deep Learning specific
 dataset/
-outputs/
-*.keras
 *.h5
 *.hdf5
 *.pt
