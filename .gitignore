@@ -10,7 +10,6 @@ env/
 .env
 
 # Deep Learning specific
-dataset/
 *.h5
 *.hdf5
 *.pt
