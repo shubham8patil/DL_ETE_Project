@@ -1,0 +1,99 @@
+/* Global App Background overrides */
+.stApp {
+    background: radial-gradient(circle at 10% 20%, rgb(31, 23, 67) 0%, rgb(18, 14, 43) 90%);
+    color: white;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+/* Header Styling */
+.main-header {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.main-header h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    color: #cca4fc;
+    background: -webkit-linear-gradient(180deg, #d3a1ff, #9b51e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-header .icon {
+    -webkit-text-fill-color: initial;
+}
+
+.main-header .subtitle {
+    color: #a0aab2;
+    font-size: 1.1rem;
+}
+
+/* Upload Card / Container styling */
+.upload-card {
+    background-color: rgba(30, 31, 56, 0.7);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    margin-top: 1rem;
+}
+
+/* File Uploader styling overrides (Streamlit Native Elements) */
+div[data-testid="stFileUploader"] {
+    background-color: transparent !important;
+}
+
+div[data-testid="stFileUploader"] > div:first-child {
+    background-color: rgba(20, 22, 40, 0.8) !important;
+    border: 1px dashed rgba(255,255,255,0.2) !important;
+    border-radius: 12px !important;
+    padding: 30px !important;
+    transition: all 0.3s ease;
+}
+
+div[data-testid="stFileUploader"] > div:first-child:hover {
+    border-color: #9b51e0 !important;
+    background-color: rgba(30,30,60,0.8) !important;
+}
+
+/* Hide small text in uploader */
+div[data-testid="stFileUploader"] small {
+    display: none;
+}
+
+/* Buttons */
+.stButton > button {
+    width: 100%;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    border: none;
+    padding: 0.6rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(106, 17, 203, 0.4);
+    background: linear-gradient(90deg, #7b1cd6 0%, #3080ff 100%);
+}
+
+/* Image */
+div[data-testid="stImage"] img {
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+
+/* Generic Text */
+p, li {
+    color: #e2e8f0;
+}
