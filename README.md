@@ -190,7 +190,7 @@ The model was **trained separately on Google Colab** to leverage free GPU accele
 
 | Parameter | Value |
 |-----------|-------|
-| Epochs | 10 |
+| Epochs | 20 |
 | Batch Size | 32 |
 | Learning Rate | 0.001 |
 | Image Size | 224 × 224 |
