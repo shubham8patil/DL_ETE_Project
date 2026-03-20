@@ -9,11 +9,6 @@ venv/
 env/
 .env
 
-# Deep Learning specific
-*.h5
-*.hdf5
-*.pt
-*.pth
 
 # IDE and OS files
 .vscode/
