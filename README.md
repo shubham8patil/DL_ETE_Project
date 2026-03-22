@@ -223,13 +223,7 @@ After training, the following outputs are generated in the `outputs/` folder:
 | **OpenCV** | Computer vision utilities |
 | **Google Colab** | Cloud-based model training with GPU |
 
----
-
-## 👨‍💻 Author
 
 **Shubham Patil**
 - GitHub: [@shubham8patil](https://github.com/shubham8patil)
 
----
-
-> ⚠️ **Disclaimer**: This project is for **educational purposes only** and should not be used for actual medical diagnosis.
